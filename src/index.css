@@ -1,0 +1,23 @@
+@tailwind base;
+
+@layer base {
+  html, body, #root {
+    @apply h-full;
+  }
+  .text-wrap {
+    word-wrap: break-word;
+    max-width: 50ch;
+  }
+  h1 {
+    @apply sm:text-6xl max-[640px]:text-4xl font-bold; 
+  }
+  }
+
+  @tailwind components;
+
+  @layer components {
+    
+  }
+  @tailwind utilities;
+
+  
